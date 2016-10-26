@@ -1,0 +1,25 @@
+{
+  "name": "nobe-newsletter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gruan/NOBE-Newsletter.git"
+  },
+  "author": "NOBE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gruan/NOBE-Newsletter/issues"
+  },
+  "homepage": "https://github.com/gruan/NOBE-Newsletter#readme"
+}
