@@ -5,6 +5,8 @@
 
   app.use(express.static('app'))
 
+  app.use('/images', express.static(__dirname + '/newsletter/images'))
+
   app.get('/', function(req, res) {
     res.sendFile(__dirname + '/newsletter/index.html')
   })
